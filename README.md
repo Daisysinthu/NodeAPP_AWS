@@ -1,7 +1,7 @@
 # NodeAPP_AWS_Proposal_Document
 
 Steps to be followed:
-       1. Create test and Production environment in AWS as mentioned in the picture "Architectural_Diagram.png".
+       1. Create the test and Production environment in AWS as mentioned in the picture "Architectural_Diagram.png".
        2. Install Jenkins in both environments.
        3. Execute the "initscript.sh" to setup npm in EC2 instances.
        4. Create a Jenkins Pipeline job and include Jenkins file in both Production and Test environments.
