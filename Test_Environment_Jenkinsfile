@@ -6,7 +6,7 @@ node {
      
      } 
   
-  stage('Build') {
+  stage('Dploy_To_Test_Environment') {
      
       sh label: '', script: '''cd /usr/local/bin
         npm i
