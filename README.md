@@ -1,4 +1,4 @@
-# NodeAPP_AWS
+# NodeAPP_AWS_Proposal_Document
 
 Steps to be followed:
        1. Create test and Production environment in AWS as mentioned in the picture "Architectural_Diagram.png".
