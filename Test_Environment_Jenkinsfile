@@ -1,0 +1,22 @@
+node {
+   
+   stage('Preparation') {
+    
+      git 'https://github.com/opsworkshop/node-hello'
+     
+     } 
+  
+  stage('Build') {
+     
+      sh label: '', script: '''cd /usr/local/bin
+        npm i
+        forever stopall
+        forever start app.js
+        '''
+     }
+   stage('Test and Deploy to Production') {
+      sh label: '', script: '''sh /opt/test.sh
+                '''
+   }
+   
+}
